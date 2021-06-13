@@ -3,7 +3,7 @@ style="  border-bottom: 1px solid #EBEBEB;">
 
 <div class="navbar-1-5" style="font-family: 'Poppins', sans-serif;">
     <div class="container mx-auto flex flex-wrap flex-row items-center justify-between">
-        <a href=""
+        <a href="{{route('index')}}"
         class="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center lg:items-center lg:justify-left">
         <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path fill-rule="evenodd" clip-rule="evenodd"
@@ -16,11 +16,11 @@ style="  border-bottom: 1px solid #EBEBEB;">
       </a>
       <nav
         class="lg:flex hidden lg:w-2/5 flex-wrap items-center text-base md:ml-auto lg:space-y-0 space-y-6 lg:space-x-12 space-x-0">
-        <a href="{{url('/')}}" class="nav-link block active">Home</a>
-        <a href="{{url('/movies')}}" class="nav-link block">Movie</a>
-        <a href="{{url('/casts')}}" class="nav-link block">Cast</a>
-        <a href="{{url('/directors')}}" class="nav-link block">Director</a>
-        <a href="{{url('/channels')}}" class="nav-link block">Channel</a>
+        <a href="{{route('index')}}" class="nav-link block active">Home</a>
+        <a href="{{route('template.movie')}}" class="nav-link block">Movie</a>
+        <a href="{{route('template.cast')}}" class="nav-link block">Cast</a>
+        <a href="{{route('template.director')}}" class="nav-link block">Director</a>
+        <a href="{{route('template.channel')}}" class="nav-link block">Channel</a>
       </nav>
       
       <label for="menu-toggle" class="cursor-pointer lg:hidden block">
@@ -33,11 +33,11 @@ style="  border-bottom: 1px solid #EBEBEB;">
       <div class="hidden w-full flex-wrap items-center text-base justify-center" id="menu">
         <nav
           class="lg:space-x-12 space-x-0 lg:flex items-center justify-between text-base pt-8 lg:pt-0 lg:space-y-0 space-y-6">
-          <a href="{{url('/')}}" class="nav-link block active">Home</a>
-        <a href="{{url('/movies')}}" class="nav-link block">Movie</a>
-        <a href="{{url('/casts')}}" class="nav-link block">Cast</a>
-        <a href="{{url('/directors')}}" class="nav-link block">Director</a>
-        <a href="{{url('/channels')}}" class="nav-link block">Channel</a>
+          <a href="{{route('index')}}" class="nav-link block active">Home</a>
+        <a href="{{route('template.movie')}}" class="nav-link block">Movie</a>
+        <a href="{{route('template.cast')}}" class="nav-link block">Cast</a>
+        <a href="{{route('template.director')}}" class="nav-link block">Director</a>
+        <a href="{{route('template.channel')}}" class="nav-link block">Channel</a>
         </nav>
       </div>
 

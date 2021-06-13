@@ -46,7 +46,7 @@
                     <!-- Right Column -->
                     <div class="w-full lg:w-1/2 text-center justify-center flex pr-0">
                       <img id="hero"
-                        src="http://api.elements.buildwithangga.com/storage/files/2/assets/Header/Header2/Header-2-1.png"
+                        src="{{asset('/assets/img/Header-2-1.png')}}"
                         alt="" />
                     </div>
                   </div>
